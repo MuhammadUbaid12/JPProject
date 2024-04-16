@@ -1,0 +1,121 @@
+    <!-- <div style="position:absolute;right:-55px;top:60px;z-index:1;">
+    <span >
+        <div class="translate-button" id="google_translate_element"></div>
+    </span>
+
+    <span>
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,ur',
+                layout: google.translate.TranslateElement.InlineLayout
+                    .HORIZONTAL
+            }, 'google_translate_element');
+        }
+        </script>
+
+        <script type="text/javascript"
+            src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
+    </span>
+    </div> -->
+
+
+
+
+    <style>
+        /* .translate-button {}
+    
+        #google_translate_element {
+            display: inline-block;
+            background-color: #4285f4;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease-in-out;
+        }
+    
+        #google_translate_element:hover {
+            background-color: #1c4dc9;
+        }
+    
+        .goog-te-combo {
+            font-size: 14px;
+            padding: 5px;
+            border-radius: 5px;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ccc;
+        } */
+    
+    
+        .fixed-con {
+            z-index: 9724790009779558 !important;
+            background-color: #f7f8fc;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+        }
+    
+        .VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+            z-index: 9724790009779 !important;
+            top: 0;
+            left: unset;
+            right: -5px;
+            display: none !important;
+            border-radius: 50%;
+            border: 2px solid gold;
+        }
+    
+        .VIpgJd-ZVi9od-aZ2wEe-OiiCO {
+            width: 80px;
+            height: 80px;
+        }
+    
+        /* Hide Google Translate link, logo, and banner-frame */
+        .goog-logo-link,
+        .gskiptranslate,
+        .goog-te-gadget span,
+        .goog-te-banner-frame,
+        #goog-gt-tt,
+        .goog-te-balloon-frame,
+        div#goog-gt- {
+            display: none !important;
+            background-image: none !important;
+    
+        }
+    
+        .goog-te-gadget {
+            color: transparent !important;
+            font-size: 0px;
+        }
+    
+        .goog-text-highlight {
+            background: none !important;
+            box-shadow: none !important;
+        }
+    
+        /* Google Translate Dropdown */
+        #google_translate_element select {
+            background: #dc3545;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 6px 8px;
+        }
+    
+        .skiptranslate iframe {
+            visibility: hidden !important;
+        }
+    
+        body {
+            top: 0 !important;
+    
+        }
+        </style>
